@@ -11,10 +11,12 @@ body {
 
 .contact  {
   color: #ffff00;
-  border: 10px outset blue;   
+  border: 10px outset blue; 
+  background-color: rgba(0, 0, 255, 0.99)
 }
 .statement, .informationsecurity, .technicalmanager, .avionics   {
-  color: ffffff;  
+  color: ffffff;
+  
 }
 
 .header, .keyskills, .productioncontroller, .recruiter  {
@@ -24,3 +26,7 @@ body {
   color:#c0c0c0;
     border: 10px ridge;
 }
+.informationsecurity, .technicalmanager, .avionics, .keyskills, .productioncontroller, .recruiter {
+  border-top: 1px solid #c0c0c0;
+  border-bottom: 1px solid #c0c0c0;
+} 
